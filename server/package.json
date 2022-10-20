@@ -1,0 +1,24 @@
+{
+  "name": "todolist-mern",
+  "version": "1.0.0",
+  "description": "Simple To-Do list",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon ./src/main.js"
+  },
+  "author": "me",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.25.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
